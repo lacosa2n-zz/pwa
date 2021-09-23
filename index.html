@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Cabecera-->
+
+<head>
+    <!--Codificación de caracteres / tildes-->
+    <meta charset="utf-8" />
+
+    <!--Titulo de la WEB-->
+    <title>Curso PWA - Bernar</title>
+
+    <!--Icono de la web-->
+    <link rel="shorcut icon" href="imagen/png" href="img/favicon.png" />
+
+    <!--Color de la aplicación -->
+    <meta name="theme-color" content="blueviolet" />
+
+    <!--Otimización para movil -->
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+
+    <!--Meta etiquetas PWA de apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon" href="img/favicon.png" />
+    <link rel="apple-touch-startup-image" href="img/favicon.png" />
+
+    <!--Configuración General PWA-->
+    <link rel="manifest" href="manifest.json" />
+
+    <!--Hojas de estilos-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!--Viewport responsive-->
+    <meta name="Viewport" content="width=device-with, initial-scale=1.0, maximum-scale=1.0, user-scalable =no" />
+    <!-- Añadimos el jQuery de google desde el siguiente enlace https://developers.google.com/speed/libraries#jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Scripts-->
+    <script src="main.js"></script>
+</head>
+
+<!--Cuerpo-->
+
+<body>
+    <!--Cabecera del cuerpo-->
+    <header id="main-header">
+        <div class="container">
+            <div id="logo">
+                <h1>Bernardo G WEB</h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="#main-header">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#services">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#videos">Videos</a>
+                    </li>
+                    <li>
+                        <a href="#footer">Contacto</a>
+                    </li>
+                </ul>
+            </div><!-- cierre menú-->
+        </div><!-- cierre container-->
+    </header>
+    <div class="clearfix"></div>
+    <div id="slider">
+        <div class="container">
+            <h2>ISD Group S.L.</h2>
+        </div>
+    </div>
+    <!--Servicios-->
+    <div id="services">
+        <div class="container">
+            <h2 class="subheader">Servicios</h2>
+            <div class="service">
+                <img src="img/1.png">
+                <h3>Desarrollo de aplicaciones</h3>
+                <p>Ofrezco servicio de desaroollo de aplicaciones modernas.</p>
+            </div>
+            <div class="service">
+                <img src="img/2.png">
+                <h3>Diseño de aplicaciones</h3>
+                <p>Diseño de aplicaciones modernas</p>
+            </div>
+            <div class="service">
+                <img src="img/3.png">
+                <h3>Adaptación</h3>
+                <p>Adaptación de aplicaciones para modernizarlas.</p>
+            </div>
+        </div>
+        <!--cierre container-->
+    </div><!-- cierre servicios-->
+    <div class="clearfix"></div>
+    <!--Nos permite evitar que se monten los elementos-->
+    <!--Videos-->
+    <div id="videos">
+        <div class="container">
+            <h2 class="subheader">Videos</h2>
+            <div class="video">
+                texto video clip 1
+                <p>VideoClip 1</p>
+            </div>
+            <div class="video">
+                texto video clip 2
+                <p>VideoClip 2</p>
+            </div>
+            <div class="video">
+               texto video clip 3
+                <p>VideoClip 3</p>
+            </div>
+        </div><!-- cierre videos-->
+        <div class="clearfix"></div>
+        <!--Pie de página-->
+        <footer id="footer">
+            <div class="container">
+                <h2 class="subheader">Contacto</h2>
+                <p>Enviame un mensaje</p>
+                <ul id="networks">
+                    <li><a href="enlace"><img src="img/twitter.png"></a></li>
+                    <li><a href="enlace"><img src="img/facebook.png"></a></li>
+                    <li><a href="enlace"><img src="img/instagram.png"></a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+</body>
+
+</html>
